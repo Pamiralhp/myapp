@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Header, .Footer > div{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+  .Footer{
+    text-align: center;
+    height: 6vh;
+    margin-top: 13.4vh;
+    background-color: rgb(165, 175, 175);
+  }
+  .Header{
+    height: 8vh;
+    background-color: rgb(165, 175, 175);
+  }
