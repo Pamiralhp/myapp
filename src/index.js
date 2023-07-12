@@ -1,18 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './Style/style.css'
-import Main from './componentes/Main';
-import Footer from './componentes/Footer';
-import Header from './componentes/Header';
+import App from "./App";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <Main />
-    <Footer />
+    <App/>
   </React.StrictMode>
 );
 
